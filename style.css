@@ -47,7 +47,7 @@ body {
   text-align: left;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.7s;
 }
 
 .btn:hover:not([disbled]) {
@@ -78,4 +78,20 @@ body {
 
 .incorrect {
   background: #ff9393;
+}
+
+footer {
+  text-align: center;
+  margin: 25px;
+  color: #f2f4fb;
+  font-size: 13px;
+}
+footer a {
+  color: #9aeabc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
